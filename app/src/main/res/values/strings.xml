@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Babble</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="app_intro">App Introduction</string>
+    <string name="account_label">Account Settings</string>
+    <string name="chat_label">Chat Settings</string>
+    <string name="profile_label">Profile Settings</string>
+    <string name="settings_label">Settings</string>
+    <string name="profile_setup_label">Profile Setup</string>
+    <string name="verify_label">Verify Account</string>
+    <string name="register_label">Sign In</string>
+    <string name="image">Image</string>
+    <string name="file">File</string>
+    <string name="profile_settings_image_option">Hold image for more options</string>
+    <string name="profile_image">Profile Image</string>
+    <string name="faq_q1">What to do in case of app keep on crashing ?</string>
+    <string name="faq_a1">Logout (if you can) then relogin into your account. Or If you can\'t logout, then close the application and clear app data and open app again. Or just simply uninstall and reinstall the application.</string>
+    <string name="faq_q2">Are my messages are encrypted ?</string>
+    <string name="faq_a2">Yes, your messages are encyrpted and safe.</string>
+    <string name="faq_q3">Is my account information is secured ?</string>
+    <string name="faq_a3">Yes, your account information is secured with us. It won\'t be given to someone else.</string>
+    <string name="faq_q4">Why i\'m not getting any notifications ?</string>
+    <string name="faq_a4">We are working on that feature.</string>
+    <string name="help_label">Help</string>
+    <string name="Faq_label">FAQ</string>
+    <string name="faq_q5">Why app is a bit slow ?</string>
+    <string name="faq_a5">App is not slow, it uses Google Firebase services which may be slow or may be free services which we are using is slow.</string>
+    <string name="feedback_heading">Please give your genuine feedback\nIt would be very helpful for us to make our app better. Tell us about what you want in the next version of this app, features you like most or dislike.</string>
+    <string name="report_heading">If you are facing any error or problem you can report to us about it in detail. we will try to solve it as soon as possible.</string>
+    <string name="type_here">Type here…</string>
+    <string name="report_label">Report Problem</string>
+    <string name="feedback_label">Feedback</string>
+    <string name="message_delete_text">Your messages will be automatically deleted after 24 hrs</string>
+    <string name="register_heading">Sign in with your google account</string>
+    <string name="verify_heading">Enter six-digit verification code which you had received as a message then hit verify button.</string>
+    <string name="profile_setup_heading">Setup your Profile, Add your display image and name then hit save button.\nYour display image will be visible to everyone.</string>
+    <string name="babblin_start_intro">Babblin\' came from word babble.\nIt is a Simple free real-time chat application where you can chat with the strangers. It is a great tool for finding friends from all over the world. And It provides features like message encryption, file transfer and all the basic features of a chat application</string>
+    <string name="onboard_frag2_headline">Why Babblin ?</string>
+    <string name="onboard_frag2_free_text">This app is completely free to use, It doesn\'t contain adverts and It doesn\'t sell your data</string>
+    <string name="onboard_frag2_realtime_text">App uses google firebase real-time database which does pretty good job :)</string>
+    <string name="onboard_frag2_encryption_text">App provides encryption of messages means if somebody gets the message in between of sending it to the other person he/she can\'t understand it directly.</string>
+    <string name="onboard_frag3_permission_text">App requires some permissions in order to work properly in your device. Permissions like Internet Access, Read Storage, Write Storage. Please allow them by hitting \'Allow\' button</string>
+    <string name="terms_conditions">By downloading or using the app, these terms will automatically apply to you – you should make sure therefore that you read them carefully before using the app. You’re not allowed to copy, or modify the app, any part of the app, or our trademarks in any way. You’re not allowed to attempt to extract the source code of the app, and you also shouldn’t try to translate the app into other languages, or make derivative versions. The app itself, and all the trade marks, copyright, database rights and other intellectual property rights related to it, still belong to Yuvraj Sablania.
+        \n\nYuvraj Sablania is committed to ensuring that the app is as useful and efficient as possible. For that reason, we reserve the right to make changes to the app or to charge for its services, at any time and for any reason. We will never charge you for the app or its services without making it very clear to you exactly what you’re paying for.
+        \n\nThe Babblin app stores and processes personal data that you have provided to us, in order to provide my Service. It’s your responsibility to keep your phone and access to the app secure. We therefore recommend that you do not jailbreak or root your phone, which is the process of removing software restrictions and limitations imposed by the official operating system of your device. It could make your phone vulnerable to malware/viruses/malicious programs, compromise your phone’s security features and it could mean that the Babblin app won’t work properly or at all.
+        \n\nYou should be aware that there are certain things that Yuvraj Sablania will not take responsibility for. Certain functions of the app will require the app to have an active internet connection. The connection can be Wi-Fi, or provided by your mobile network provider, but Yuvraj Sablania cannot take responsibility for the app not working at full functionality if you don’t have access to Wi-Fi, and you don’t have any of your data allowance left.
+        \n\nIf you’re using the app outside of an area with Wi-Fi, you should remember that your terms of the agreement with your mobile network provider will still apply. As a result, you may be charged by your mobile provider for the cost of data for the duration of the connection while accessing the app, or other third party charges. In using the app, you’re accepting responsibility for any such charges, including roaming data charges if you use the app outside of your home territory (i.e. region or country) without turning off data roaming. If you are not the bill payer for the device on which you’re using the app, please be aware that we assume that you have received permission from the bill payer for using the app.
+        \n\nAlong the same lines, Yuvraj Sablania cannot always take responsibility for the way you use the app i.e. You need to make sure that your device stays charged – if it runs out of battery and you can’t turn it on to avail the Service, Yuvraj Sablania cannot accept responsibility
+        \n\nWith respect to Yuvraj Sablania’s responsibility for your use of the app, when you’re using the app, it’s important to bear in mind that although we endeavour to ensure that it is updated and correct at all times, we do rely on third parties to provide information to us so that we can make it available to you. Yuvraj Sablania accepts no liability for any loss, direct or indirect, you experience as a result of relying wholly on this functionality of the app.
+        \n\nAt some point, we may wish to update the app. The app is currently available on Android and iOS – the requirements for both systems (and for any additional systems we decide to extend the availability of the app to) may change, and you’ll need to download the updates if you want to keep using the app. Yuvraj Sablania does not promise that it will always update the app so that it is relevant to you and/or works with the iOS/Android version that you have installed on your device. However, you promise to always accept updates to the application when offered to you, We may also wish to stop providing the app, and may terminate use of it at any time without giving notice of termination to you. Unless we tell you otherwise, upon any termination, (a) the rights and licenses granted to you in these terms will end; (b) you must stop using the app, and (if needed) delete it from your device.
+        \n\n<b>Changes to This Terms and Conditions</b>
+        \n\nI may update our Terms and Conditions from time to time. Thus, you are advised to review this page periodically for any changes. I will notify you of any changes by posting the new Terms and Conditions on this page. These changes are effective immediately after they are posted on this page.
+        \n\n<b>Contact Us</b>
+        \n\nIf you have any questions or suggestions about my Terms and Conditions, do not hesitate to contact me.
+        \n\nThis Terms and Conditions page was generated by App Privacy Policy Generator(&quot;"https://app-privacy-policy-generator.firebaseapp.com&quot;)</string>
+    <string name="onboard_frag4_terms_and_condition_heading"><![CDATA[Terms & Conditions]]></string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="io.github.yuvrajsab.babblin">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".Babblin"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@mipmap/ic_launcher" />
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/colorAccent" />
+
+        <activity
+            android:name=".StartActivity"
+            android:label="@string/app_intro"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".RegisterActivity"
+            android:label="@string/register_label"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".VerifyActivity"
+            android:label="@string/verify_label"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ProfileSetup"
+            android:label="@string/profile_setup_label"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainSettings"
+            android:label="@string/settings_label"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ProfileSettings"
+            android:label="@string/profile_label"
+            android:parentActivityName=".MainSettings"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+        <activity
+            android:name=".ImagePreviewActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".chatActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".AccountSettings"
+            android:label="@string/account_label"
+            android:parentActivityName=".MainSettings" />
+        <activity
+            android:name=".ChatSettings"
+            android:label="@string/chat_label"
+            android:parentActivityName=".MainSettings" />
+        <activity
+            android:name=".Help"
+            android:label="@string/help_label"
+            android:parentActivityName=".MainSettings" />
+        <activity
+            android:name=".FAQ"
+            android:label="@string/Faq_label"
+            android:parentActivityName=".Help" />
+        <activity
+            android:name=".Feedback"
+            android:label="@string/feedback_label"
+            android:parentActivityName=".Help" />
+        <activity
+            android:name=".ReportProblem"
+            android:label="@string/report_label"
+            android:parentActivityName=".Help" />
+        <activity
+            android:name=".AllUsers"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ProfileActivity"
+            android:parentActivityName=".AllUsers">
+            <intent-filter>
+                <action android:name="io.github.yuvrajsab.babblin_TARGET_NOTIFICATION" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <service android:name=".FirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

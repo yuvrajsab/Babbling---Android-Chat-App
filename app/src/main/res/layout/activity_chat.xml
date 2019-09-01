@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/chatBackgroundLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="io.github.yuvrajsab.babblin.chatActivity">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/messages_list"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/chat_bar_layout"
+        android:gravity="bottom"
+        android:orientation="horizontal"
+        android:padding="2dp"
+        android:weightSum="10"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageButton
+            android:id="@+id/chatAddBtn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="2"
+            android:background="?android:attr/selectableItemBackground"
+            app:srcCompat="@drawable/ic_add_black_24dp" />
+
+        <EditText
+            android:id="@+id/chatEt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:ems="10"
+            android:hint="@string/type_here"
+            android:inputType="textMultiLine" />
+
+        <ImageButton
+            android:id="@+id/chatSendBtn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="2"
+            android:background="?android:attr/selectableItemBackground"
+            app:srcCompat="@drawable/ic_send_black_24dp" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

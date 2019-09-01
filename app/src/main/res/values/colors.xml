@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#2196F3</color>
+    <color name="colorPrimaryDark">#1976D2</color>
+    <color name="colorAccent">#FFC107</color>
+
+    <color name="primaryTextColor">#212121</color>
+    <color name="secondaryTextColor">#757575</color>
+
+    <color name="textColor">#FFFFFF</color>
+    <color name="dividerColor">#BDBDBD</color>
+
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="dark_blue">#0d47a1</color>
+    <color name="red">#f44336</color>
+    <color name="success">#76ff03</color>
+
+</resources>
